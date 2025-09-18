@@ -7,7 +7,7 @@ void main(){
     float total=0.0f;
 
     printf("enter item name: ");
-    scanf("%[^\n]s", item);
+    scanf("%[^\n]", item);
     getchar();
 
     printf("enter price of each item: ");
