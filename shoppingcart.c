@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main(){
+int main(){
     char item[50]="";
     float price=0.0f;
     int quantity=0;
@@ -19,4 +19,6 @@ void main(){
 
     total=price*quantity;
     printf("your total bill is: %.2f", total);
+
+    return 0;
 }
