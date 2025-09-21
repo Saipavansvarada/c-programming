@@ -18,7 +18,7 @@ int main(){
     scanf("%d", &quantity);
 
     total=price*quantity;
-    printf("your total bill is: %.2f", total);
+    printf("your total bill is: %.2f rupees", total);
 
     return 0;
 }
