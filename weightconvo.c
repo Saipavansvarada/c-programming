@@ -8,7 +8,7 @@ void main(){
     printf("2. Gram to Kilograms\n");
     printf("Choose an option (1 or 2): ");
     scanf("%d",&option);    
-    getchar(); // clear input buffer
+    getchar(); // this is causing buffer issue so used getchar() to clear input buffer
   
  if (option==1)
     {
@@ -16,7 +16,6 @@ void main(){
         scanf("%f",&kg);
         g=kg*1000;  
         printf("Weight in Grams: %.2f g\n",g);
-
     }
     else if (option==2)
     {
@@ -24,7 +23,6 @@ void main(){
         scanf("%f",&g);
         kg=g/1000;  
         printf("Weight in Kilograms: %.2f kg\n",kg);
-
     }
     else
     {
